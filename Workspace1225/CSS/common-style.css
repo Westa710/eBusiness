@@ -1,6 +1,11 @@
+.main{
+    display:flex;
+}
+
 /* aside */
 .aside{
     width:30%;
+    height:100%;
 }
 .menu-content ul {
     padding-top: 70px;
@@ -48,3 +53,8 @@
 }
 
 /* content */
+
+.content{
+    width:70%;
+    height:100%;
+}
