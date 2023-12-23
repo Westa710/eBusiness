@@ -1,3 +1,7 @@
+body {
+  font-size: 20px;
+}
+
 /* header */
 header {
   width: 100%;
@@ -9,18 +13,83 @@ header {
   color: white;
 }
 
-.aboutus {
-  margin-top: 100px;
+.products-description {
+  margin-top: 50px;
+  padding: 50px 0 30px;
+  background-image: linear-gradient(rgb(155, 158, 207), rgb(90, 200, 227));
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
 }
 
-.aboutus h1 {
+.products-description h1 {
   text-align: center;
   font-size: 2rem;
 }
 
-.aboutus p {
+.products-description p {
   text-align: center;
+  line-height: 2rem;
   line-height: 2rem;
   padding: 30px 70px 0;
   margin-bottom: 50px;
+}
+
+/* products */
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.product-item {
+  width: 500px;
+  height: 300px;
+  margin: 30px 15px;
+}
+
+.product-item img {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(89, 111, 183);
+}
+
+/* products-intro */
+.products-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-intro-item {
+  width: 500px;
+  margin: 30px 15px;
+}
+
+.products-intro-item img {
+  width: 500px;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.products-intro-item h1 {
+  font-size: 2rem;
+  padding: 1rem 0 1rem 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.products-intro-item p {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.item-middle {
+  flex-direction: row-reverse;
+}
+
+.item-first,
+.item-end {
+  background-image: linear-gradient(rgb(243, 243, 243), rgb(212, 237, 246));
 }

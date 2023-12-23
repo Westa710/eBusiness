@@ -11,7 +11,7 @@ body {
 
 .bigimg {
   width: 100%;
-  height: 400px;
+  height: 95vh;
   background-image: url(../images/bigimg.jpg);
   background-color: rgba(255, 255, 255, 0.652);
   background-size: cover;
@@ -21,8 +21,8 @@ body {
 
 .pagetop h1 {
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   padding: 0;
   margin: 0;
@@ -34,12 +34,17 @@ body {
 }
 /* about us */
 .aboutus {
-  margin-top: 100px;
+  margin-top: 200px;
+  padding: 100px 0;
+  background-image: linear-gradient(rgb(155, 158, 207), rgb(90, 200, 227));
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
 }
 
 .aboutus h1 {
+  padding-top: 50px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .aboutus p {
@@ -53,7 +58,7 @@ body {
 .location {
   margin-top: 100px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .location h1 {
