@@ -41,6 +41,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgb(89, 111, 183);
+  border-radius: 3px;
 }
 
 /* products-intro */
@@ -58,7 +59,8 @@ body {
 .products-intro-item img {
   width: 500px;
   height: 300px;
-  padding-top: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
 }
 
 .products-intro-item h1 {
