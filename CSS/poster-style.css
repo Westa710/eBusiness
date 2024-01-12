@@ -1,0 +1,24 @@
+.slogan {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.slogan p {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.poster {
+  text-align: center;
+}
+
+.poster img {
+  width: 80vw;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: screen;
+}
