@@ -3,7 +3,7 @@ body {
 }
 
 .products-description {
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 50px 0 30px;
   background-image: linear-gradient(rgb(155, 158, 207), rgb(90, 200, 227));
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
