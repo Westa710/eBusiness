@@ -1,5 +1,5 @@
 body {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .products-description {
@@ -16,6 +16,7 @@ body {
 }
 
 .products-description p {
+  font-size:1.5rem;
   text-align: center;
   line-height: 2rem;
   padding: 30px 70px 0;
