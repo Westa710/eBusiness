@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="CSS/common-style.css" />
   <link rel="stylesheet" type="text/css" href="CSS/poster-style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="CSS/lightbox.min.css" />
 </head>
 <body>
   <div>
@@ -26,6 +27,9 @@
         <li>
           <a href="./contact.html">contact</a>
         </li>
+        <li>
+          <img src="images/SAITO_logo.png" alt="">
+        </li>
       </ul>
     </div>
   </div>
@@ -43,11 +47,13 @@
     </div>
 
     <div class="poster">
-      <img src="images/poster.jpg" alt="" />
+      <a href="images/poster.jpg" data-lightbox="poster"><img src="images/poster.jpg" alt="" /></a>
     </div>
 
     <footer>
       <small>&copy; 2023 Team SAITO</small>
     </footer>
+    <script src="js/lightbox-plus-jquery.js"></script>
+
   </div>
 </body>

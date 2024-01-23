@@ -58,10 +58,10 @@ body {
 
 @keyframes content {
   0% {
-    left: -1500px;
+    left: -2000px;
   }
-  10% {
-    left: -1500px;
+  20% {
+    left: -2000px;
   }
   100% {
     left: 0px;
