@@ -32,17 +32,20 @@ body {
   animation-duration: 5s;
   animation-fill-mode: forwards;
   color: white;
+  top: 200px;
 }
 
 @keyframes heading {
   0% {
-    top: -50px;
+    opacity: 0;
+    /* top: -100px; */
   }
   10% {
-    top: -50px;
+    /* top: -100px; */
   }
   100% {
-    top: 200px;
+    opacity: 1;
+    /* top: 200px; */
   }
 }
 
@@ -54,17 +57,20 @@ body {
   line-height: 2rem;
   font-size: 2rem;
   color: white;
+  padding-top: 50px;
 }
 
 @keyframes content {
   0% {
-    left: -1500px;
+    opacity: 0;
+    /* left: -1500px; */
   }
   10% {
-    left: -1500px;
+    /* left: -1500px; */
   }
   100% {
-    left: 0px;
+    opacity: 1;
+    /* left: 0px; */
   }
 }
 
