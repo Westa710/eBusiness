@@ -59,7 +59,7 @@ html {
 .menu-content ul {
   padding-top: 70px;
 }
-.menu-content ul li:nth-child(-n+4) {
+.menu-content ul li:nth-child(-n + 5) {
   border-bottom: solid 1px #444444;
   list-style: none;
   line-height: 33px;
@@ -107,9 +107,9 @@ html {
   transition: all 0.5s; /*アニメーション設定*/
 }
 
-.menu-content img{
-  width:100%;
-  height:100%;
+.menu-content img {
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -198,7 +198,7 @@ html {
 
 .content {
   width: 80%;
-  max-width:1600px;
+  max-width: 1600px;
   height: 100%;
   background-color: white;
   margin: 0 auto;
