@@ -5,5 +5,10 @@
 
 video {
   margin-top: 100px;
-  width: 70%;
+  width: 60vw;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
 }

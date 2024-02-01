@@ -8,8 +8,8 @@ body {
 }
 
 .products-description {
-  margin-top: 100px;
-  padding: 50px 0 30px;
+  margin: 10px 0 20px;
+  padding: 50px 0 50px;
   background-image: linear-gradient(rgb(155, 158, 207), rgb(90, 200, 227));
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
@@ -55,7 +55,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 
 .products-intro-item {
